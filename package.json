@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/tanvir039/custom-action-demo#readme",
   "dependencies": {
-    "@actions/core": "^3.0.1"
+    "@actions/core": "^1.10.1"
   }
 }
