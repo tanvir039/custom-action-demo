@@ -4,7 +4,7 @@
 /***/ 577:
 /***/ ((module) => {
 
-module.exports = eval("require")("@actions/core");
+module.exports = eval("require")("actions/core");
 
 
 /***/ })
@@ -52,11 +52,12 @@ const core = __nccwpck_require__(577)
 
 try {
     const nameToGreet = core.getInput('who-to-greet');
-    console.log(`Hello', ${nameToGreet}!`);
+    console.log(`Hello, ${nameToGreet}!`);
     core.setOutput("time", new Date().toTimeString());
 } catch (error) {
     core.setFailed(error.message);
 }
+
 module.exports = __webpack_exports__;
 /******/ })()
 ;
