@@ -6,7 +6,7 @@ inputs:
   who-to-greet:
     description: Who to greet
     required: true
-    default: Hi
+    default: Hello
 
 outputs:
   time:
